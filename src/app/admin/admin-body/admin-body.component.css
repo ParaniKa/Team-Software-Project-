@@ -1,0 +1,57 @@
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.4/css/lightgallery.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.4/css/lg-zoom.css');
+
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.4/css/lg-video.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.4/css/lg-share.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.4/css/lg-rotate.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.4/css/lg-thumbnail.css');
+body {
+  margin: 0;
+}
+.gallery-item {
+ margin: 5px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  width:100%;
+  padding-bottom: 5px;
+
+
+
+  /* flex-direction: column;
+  width: 32.5%;
+  padding-bottom: 5px;
+  margin: 5px; */
+}
+ /* .img-responsive{
+
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width:100%;
+    padding-bottom: 5px;
+}  */
+
+
+
+.dream{
+    
+    flex-direction: column;
+    width: 32.5%;
+    /* width:100%; */
+    padding-bottom: 5px;
+    margin: 5px;
+}
+
+.img-responsive{
+    
+    flex-direction: column;
+    width: 32.5%;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+

@@ -1,0 +1,29 @@
+<div>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header">
+                <h4>Booking Create
+                    <a routerLink="/booking/adminbooking" class="btn btn-danger float-end">Back</a>
+                </h4>
+            </div>
+            <div class="card-body">
+                <form (ngSubmit)="saveBooking()">
+                    <div class="md-3">
+                        <label>Customer Name</label>
+                        <input type="text" [(ngModel)]="customer_name" name="customer_name" class="form-control">
+                        <span *ngIf="errors.customer_name" class="text-danger">{{errors.customer_name}}</span>
+                    </div>
+                    <div class="md-3">
+                        <label>Customer Email</label>
+                        <input type="email" [(ngModel)]="customer_email" name="customer_email" class="form-control">
+                        <span *ngIf="errors.customer_email" class="text-danger">{{errors.customer_email}}</span>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                </form>
+            </div>
+    </div>
+</div>
+
+
